@@ -1,0 +1,69 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+.venv/
+venv/
+env/
+ENV/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# --- ML / model artifacts (never commit weights) ---
+*.pt
+*.pth
+*.onnx
+*.tflite
+*.gguf
+*.safetensors
+*.bin
+*.ckpt
+exports/
+models/
+checkpoints/
+runs/
+
+# --- Datasets (never commit raw data) ---
+data/
+datasets/
+*.csv
+*.parquet
+*.h5
+*.hdf5
+*.zip
+*.tar.gz
+
+# --- FAISS indexes (generated, not source) ---
+*.faiss
+*.index
+rag_index/
+
+# --- HuggingFace / model caches ---
+.cache/
+.huggingface/
+~/.cache/huggingface/
+
+# --- Secrets (never commit) ---
+.env
+.env.*
+*.key
+*.pem
+secrets.yaml
+secrets.json
+
+# --- OS / editor junk ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
