@@ -18,5 +18,3 @@ offline on a Raspberry Pi 5-class device — no patient data ever leaves the cli
   raw images leaving the edge device.
 - **RAG explanations** — a local FAISS index retrieves similar anonymised historical cases and
   a small LLM (Llama 3.2 1B via Ollama) writes a plain-language referral justification.
-
-## Architecture
